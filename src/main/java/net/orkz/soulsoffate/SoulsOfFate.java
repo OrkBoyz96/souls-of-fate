@@ -2,6 +2,8 @@ package net.orkz.soulsoffate;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.orkz.soulsoffate.Items.ModItemGroups;
+import net.orkz.soulsoffate.Items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,8 +13,9 @@ public class SoulsOfFate implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModItems.registerItems();
 
-		LOGGER.info("Hello Fabric world!");
 	}
 }
