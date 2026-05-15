@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "souls-of-fate",
+	"version": "${version}",
+	"name": "Soul's of fate",
+	"description": "Boss fieat for the funny",
+	"authors": [
+		"OrkBoyz96"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/souls-of-fate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.orkz.soulsoffate.SoulsOfFate"
+		],
+		"fabric-datagen": [
+			"net.orkz.soulsoffate.SoulsOfFateDataGenerator"
+		],
+		"client": [
+			"net.orkz.soulsoffate.SoulsOfFateclient"
+]
+	},
+	"mixins": [
+		"souls-of-fate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
