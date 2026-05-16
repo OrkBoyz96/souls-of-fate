@@ -16,8 +16,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.Soul_Of_Fate.soul_orb_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(new ItemStack(ModItems.Soul_Orb));
-
-                    } ).build());
+                    }).build());
 
 
     public static void registerItemGroups() {

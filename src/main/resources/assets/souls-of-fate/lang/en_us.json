@@ -1,2 +1,4 @@
 {
-  "item.SoulsOfFate.soul_orb": = "soul orb"
+  "item.SoulsOfFate.soul_orb": "soul orb",
+  "itemgroup.Soul_Of_Fate.soul_orb_items": "soul orb group"
+}
